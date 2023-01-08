@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://114.116.22.114:3306/mytool?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: mytool
+
+
+server:
+  port: 9090
+  servlet:
+    context-path: /mytool
+logging:
+  level:
+    com.as.mytool: debug
