@@ -2,7 +2,6 @@ package com.as.mytool.sys.mapper;
 
 import com.as.mytool.sys.entity.MytoolApp;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -10,9 +9,8 @@ import org.apache.ibatis.annotations.Mapper;
  * </p>
  *
  * @author fusheng
- * @since 2023-01-08
+ * @since 2023-01-09
  */
-@Mapper
 public interface MytoolAppMapper extends BaseMapper<MytoolApp> {
 
 }

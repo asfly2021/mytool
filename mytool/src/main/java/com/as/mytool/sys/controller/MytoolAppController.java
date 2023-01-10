@@ -1,8 +1,8 @@
 package com.as.mytool.sys.controller;
 
 import com.as.mytool.common.TResult;
-import com.as.mytool.sys.service.IMytoolAppService;
 import com.as.mytool.sys.entity.MytoolApp;
+import com.as.mytool.sys.service.IMytoolAppService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,13 +18,12 @@ import java.util.List;
  * </p>
  *
  * @author fusheng
- * @since 2023-01-08
+ * @since 2023-01-09
  */
 @CrossOrigin
 @Controller
 @RequestMapping("/sys/mytoolApp")
 public class MytoolAppController {
-
     @Autowired
     private IMytoolAppService mytoolAppService;
 

@@ -12,7 +12,7 @@ import java.time.LocalDate;
  * </p>
  *
  * @author fusheng
- * @since 2023-01-08
+ * @since 2023-01-09
  */
 @TableName("mytool_app")
 public class MytoolApp implements Serializable {
@@ -49,6 +49,11 @@ public class MytoolApp implements Serializable {
      * 修改时间
      */
     private LocalDate modifyTime;
+
+    /**
+     * 排序
+     */
+    private Integer sort;
 
     public Integer getId() {
         return id;
@@ -98,6 +103,14 @@ public class MytoolApp implements Serializable {
         this.modifyTime = modifyTime;
     }
 
+    public Integer getSort() {
+        return sort;
+    }
+
+    public void setSort(Integer sort) {
+        this.sort = sort;
+    }
+
     @Override
     public String toString() {
         return "MytoolApp{" +
@@ -107,6 +120,7 @@ public class MytoolApp implements Serializable {
             ", remark = " + remark +
             ", createTime = " + createTime +
             ", modifyTime = " + modifyTime +
+            ", sort = " + sort +
         "}";
     }
 }

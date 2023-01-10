@@ -28,7 +28,7 @@ public class DataBase {
 
                 })
                 .packageConfig(builder -> {
-                    builder.parent("com.as") // 设置父包名
+                    builder.parent("com.as.mytool") // 设置父包名
                             .moduleName("sys") // 设置父包模块名
                             .pathInfo(Collections.singletonMap(OutputFile.xml, "D://")); // 设置mapperXml生成路径
                 })

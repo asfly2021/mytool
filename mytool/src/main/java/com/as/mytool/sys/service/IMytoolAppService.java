@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author fusheng
- * @since 2023-01-08
+ * @since 2023-01-09
  */
 public interface IMytoolAppService extends IService<MytoolApp> {
 
